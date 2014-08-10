@@ -13,6 +13,8 @@
 		247EE1E21997BDE6009D0AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247EE1E01997BDE6009D0AAC /* Main.storyboard */; };
 		247EE1E41997BDE6009D0AAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247EE1E31997BDE6009D0AAC /* Images.xcassets */; };
 		247EE1F01997BDE6009D0AAC /* CellHeightTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 247EE1EF1997BDE6009D0AAC /* CellHeightTestTests.m */; };
+		247EE1FB1997BE21009D0AAC /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 247EE1FA1997BE21009D0AAC /* Cell.m */; };
+		247EE1FE1997C0F4009D0AAC /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 247EE1FD1997C0F4009D0AAC /* TextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		247EE1E91997BDE6009D0AAC /* CellHeightTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellHeightTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		247EE1EE1997BDE6009D0AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		247EE1EF1997BDE6009D0AAC /* CellHeightTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellHeightTestTests.m; sourceTree = "<group>"; };
+		247EE1F91997BE21009D0AAC /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		247EE1FA1997BE21009D0AAC /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		247EE1FC1997C0F3009D0AAC /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		247EE1FD1997C0F4009D0AAC /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 				247EE1DB1997BDE6009D0AAC /* AppDelegate.m */,
 				247EE1DD1997BDE6009D0AAC /* ViewController.h */,
 				247EE1DE1997BDE6009D0AAC /* ViewController.m */,
+				247EE1F91997BE21009D0AAC /* Cell.h */,
+				247EE1FA1997BE21009D0AAC /* Cell.m */,
+				247EE1FC1997C0F3009D0AAC /* TextView.h */,
+				247EE1FD1997C0F4009D0AAC /* TextView.m */,
 				247EE1E01997BDE6009D0AAC /* Main.storyboard */,
 				247EE1E31997BDE6009D0AAC /* Images.xcassets */,
 				247EE1D61997BDE6009D0AAC /* Supporting Files */,
@@ -216,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				247EE1DF1997BDE6009D0AAC /* ViewController.m in Sources */,
+				247EE1FE1997C0F4009D0AAC /* TextView.m in Sources */,
+				247EE1FB1997BE21009D0AAC /* Cell.m in Sources */,
 				247EE1DC1997BDE6009D0AAC /* AppDelegate.m in Sources */,
 				247EE1D91997BDE6009D0AAC /* main.m in Sources */,
 			);
