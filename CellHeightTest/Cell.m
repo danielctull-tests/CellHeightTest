@@ -16,17 +16,20 @@
 
 @implementation Cell
 
+- (void)setTextView:(TextView *)textView {
+	_textView = textView;
+	_textView.textContainerInset = UIEdgeInsetsMake(15.0f, 15.0f, 15.0f, 15.0f);
+}
+
 - (CGSize)systemLayoutSizeFittingSize:(CGSize)targetSize
 		withHorizontalFittingPriority:(UILayoutPriority)horizontalFittingPriority
 			  verticalFittingPriority:(UILayoutPriority)verticalFittingPriority {
-
 
 	CGFloat cellWidth = CGRectGetWidth(self.bounds);
 	CGFloat contentWidth = CGRectGetWidth(self.contentView.bounds);
 	CGFloat contentDifference = cellWidth - contentWidth;
 	CGFloat margin = [[self.marginConstraints valueForKeyPath:@"@sum.constant"] floatValue];
 	self.textView.preferredMaxLayoutWidth = targetSize.width - contentDifference - margin;
-
 	[self.textView invalidateIntrinsicContentSize];
 
 	CGSize size =  [super systemLayoutSizeFittingSize:targetSize

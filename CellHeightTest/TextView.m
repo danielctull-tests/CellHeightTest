@@ -13,9 +13,6 @@
 - (CGSize)intrinsicContentSize {
 
 	CGSize max = CGSizeMake(self.preferredMaxLayoutWidth, CGFLOAT_MAX);
-
-	NSLog(@"%@", NSStringFromCGSize(max));
-
 	CGSize size = CGSizeZero;
 
 	NSString *text = self.text;
